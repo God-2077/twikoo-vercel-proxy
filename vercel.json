@@ -1,9 +1,16 @@
 {
-  "redirects": [
+  "rewrites": [
     {
-      "source": "/(.*)",
-      "destination": "https://godstwikoo.netlify.app/$1",
-      "permanent": true
+      "source": "/:path*/",
+      "destination": "https://twikoo-p.ksable.top/:path*/"
+    },
+    {
+      "source": "/:path*",
+      "destination": "https://twikoo-p.ksable.top/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "https://twikoo-p.ksable.top/"
     }
   ]
 }
