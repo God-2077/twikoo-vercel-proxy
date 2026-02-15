@@ -2,7 +2,7 @@
   "redirects": [
     {
       "source": "/(.*)",
-      "destination": "https://n.pzyq.dpdns.org/$1",
+      "destination": "https://godstwikoo.netlify.app/$1",
       "permanent": true
     }
   ]
